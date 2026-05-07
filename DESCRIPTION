@@ -1,0 +1,29 @@
+Package: rKenya
+Type: Package
+Title: Kenya Maps: Counties and Sub-Counties for Spatial Visualization
+Version: 0.1.1
+Authors@R: c(
+    person(
+      "Kilai Mutua, PhD",
+      email = "samkmutua@gmail.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: Provides spatial boundary data for Kenya at the county and
+    sub-county administrative levels. Includes helper functions and datasets
+    for creating choropleth maps, thematic visualizations, and spatial analyses. Boundary data are based on
+    Kenya's 47 counties and their constituent sub-counties as defined by the
+    Independent Electoral and Boundaries Commission (IEBC).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+LazyDataCompression: xz
+Depends: 
+    R (>= 3.5)
+RoxygenNote: 7.3.3
+Imports: 
+    dplyr,
+    ggplot2,
+    rlang,
+    sf
+Roxygen: list(markdown = TRUE)
